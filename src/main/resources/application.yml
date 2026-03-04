@@ -1,0 +1,8 @@
+bot:
+  token: ${BOT_TOKEN:YOUR_BOT_TOKEN_HERE}
+  username: ${BOT_USERNAME:your_bot_username}
+  owner-chat-id: ${OWNER_CHAT_ID:0}
+
+spring:
+  main:
+    banner-mode: off

@@ -1,0 +1,15 @@
+package com.milktea.bot.model;
+
+public enum ConversationState {
+    IDLE,
+    SELECTING_CATEGORY,
+    SELECTING_ITEM,
+    SELECTING_SIZE,
+    SELECTING_TOPPING,
+    SELECTING_QUANTITY,
+    ADDING_NOTE,
+    VIEWING_CART,
+    CONFIRMING_ORDER,
+    AWAITING_CONTACT,
+    OWNER_TYPING_REJECT_REASON
+}
